@@ -16,6 +16,8 @@
 ## Description
 This project implements a Sudoku solver in Elixir. It uses a combination of constraint propagation and backtracking to efficiently solve Sudoku puzzles of varying difficulty.
 
+This solver stops as soon as it finds a single solution and does not determine if there are multiple solutions for the given sudoku puzzle.
+
 ## Features
 - Solves 9x9 Sudoku puzzles
 - Uses efficient algorithms for constraint propagation
