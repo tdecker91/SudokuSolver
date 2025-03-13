@@ -1,4 +1,17 @@
 # Sudoku Solver
+```javascript
+. . . | 9 2 8 | 1 . .
+. 8 . | 7 . 3 | . 2 4
+2 6 . | . . 5 | . 7 .
+------+-------+------
+. 9 . | 1 . 7 | 2 . .
+. 1 . | . . 6 | . 4 7
+3 . . | . 8 . | . 9 1
+------+-------+------
+. 2 8 | 5 4 . | . . 6
+. . 6 | 8 3 1 | 7 5 .
+. . 5 | . 7 . | . . .
+```
 
 ## Description
 This project implements a Sudoku solver in Elixir. It uses a combination of constraint propagation and backtracking to efficiently solve Sudoku puzzles of varying difficulty.
@@ -36,7 +49,7 @@ To solve a Sudoku puzzle:
 > IO.puts(solution)
 ```
 
-```elixir
+```javascript
 5 2 4 | 6 7 9 | 1 3 8
 8 1 9 | 3 2 5 | 6 4 7
 3 6 7 | 1 8 4 | 5 2 9
