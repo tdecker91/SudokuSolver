@@ -22,7 +22,6 @@ This solver stops as soon as it finds a single solution and does not determine i
 - Solves 9x9 Sudoku puzzles
 - Uses efficient algorithms for constraint propagation
 - Implements backtracking for complex puzzles
-- Provides a clean, functional implementation in Elixir
 
 ## Project structure
 ```

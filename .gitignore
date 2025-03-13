@@ -24,3 +24,7 @@ sudoku-*.tar
 
 # Temporary files, for example, from tests.
 /tmp/
+
+# Added by cargo
+
+/rust/target
