@@ -83,3 +83,9 @@ defimpl String.Chars, for: Sudoku do
     end)
   end
 end
+
+defimpl Inspect, for: Sudoku do
+  def inspect(%Sudoku{} = sudoku, _opts) do
+    to_string(sudoku)
+  end
+end
